@@ -1,0 +1,9 @@
+{
+	"name": "rchambiveFactoriaDatos",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3c81f7fa-a4cd-41e8-98f8-b8a221369b06",
+		"tenantId": "1e0ba129-0d22-48b9-acf7-f2af513737a6"
+	}
+}
