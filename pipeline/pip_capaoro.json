@@ -1,0 +1,30 @@
+{
+	"name": "pip_capaoro",
+	"properties": {
+		"activities": [
+			{
+				"name": "CapaPlata_To_CapaOro",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/rommelchambi8@hotmail.com/Transferir Datos de Capa Plata hacia Capa Oro"
+				},
+				"linkedServiceName": {
+					"referenceName": "linkContectoDataFactoryConDataBricks",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2024-05-26T18:48:51Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
